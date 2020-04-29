@@ -1,0 +1,48 @@
+{
+    "galleries": [
+	{ 
+		"title":"Truskawka",
+		"when":"2020-04-03",
+		"thumbnailUrl":"img/slodkie/truskawa.jpg"
+	},
+	{ 
+		"title":"Piesek",
+		"when":"2020-04-02",
+		"thumbnailUrl":"img/slodkie/szczeniak.jpg"
+	},
+	{
+		"title":"Kokardka",
+		"when":"2020-04-01",
+		"thumbnailUrl":"img/slodkie/kokardka.jpg"
+	},
+	{
+		"title":"Cukier Puder",
+		"when":"2020-04-04",
+		"thumbnailUrl":"img/slodkie/puder.png"
+	},
+	{
+		"title":"Foczka",
+		"when":"2020-04-05",
+	"thumbnailUrl":"img/slodkie/foka.jpg"
+	},
+	{
+		"title":"Korona Rzeszy",
+		"when":"2020-04-06",
+		"thumbnailUrl":"img/slodkie/korona.jpg"
+	}
+	],
+	"sortList":[
+        {
+            "label":"Alfabetycznie",
+            "value":"title"
+        },
+        {
+            "label":"Chronologicznie",
+            "value":"when"
+        },
+        {
+            "label":"Od najnowszej",
+            "value":"-when"
+        }
+    ]
+}

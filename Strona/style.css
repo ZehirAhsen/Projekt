@@ -1,0 +1,30 @@
+/*.carousel {
+    width:800px;
+    height:350px;
+}*/
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators 
+{
+    filter: invert(100%);
+}
+body
+{
+	font-family: 'Ubuntu', Arial, Halvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Cinzel', serif;	
+}
+i
+{
+	color:goldenrod;
+}
+.navbar-brand img
+{
+	width:55px;
+	height:55px;
+}
+
+

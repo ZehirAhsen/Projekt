@@ -1,0 +1,225 @@
+<!doctype html>
+<html ng-app="portfolioApp" lang="en" ng-controller="GalleryListCtrl"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<script src="js/forms.js"></script>
+	
+	
+
+    <title>Kulikowa zagroda {{query}}</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#main-page"><i class="fas fa-cloud"></i>Info</a>
+                  <a class="dropdown-item" href="#section-one"><i class="fas fa-dragon"></i>Pierwsza sekcja strony</a>
+                  <a class="dropdown-item" href="#section-two"><i class="fas fa-coffee"></i>Druga sekcja strony</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">GALERIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">KONTAKT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">PRACOWNICY</a>
+            </li>
+        </ul>
+        </div>
+      </nav>
+      
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/karuzela/0.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/karuzela/1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/karuzela/2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/karuzela/3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/karuzela/4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      
+        <section id="main-page" class="jumbotron">
+            <div class="container">
+                <h1><i class="fas fa-cloud"></i>Zerowa sekcja strony!</h1>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies arcu mi, condimentum eleifend tortor ultricies vitae. Vivamus laoreet accumsan neque vel tincidunt. Morbi turpis arcu, aliquam finibus ornare a, fringilla quis ligula. Morbi fringilla id mauris at placerat. Vestibulum auctor posuere nibh at vehicula. Morbi eleifend turpis eu mollis ullamcorper. Nam laoreet egestas sem, eu facilisis risus maximus nec. Vivamus vulputate bibendum dui. Mauris et elit augue. Vivamus id lacinia lectus. Quisque sodales mauris nec ullamcorper condimentum.
+
+                        t dui leo, et laoreet nunc blandit non. Praesent rhoncus orci vitae lacus venenatis ullamcorper. Nam augue arcu, interdum nec massa in, mattis consectetur eros. Donec fringilla vestibulum arcu nec semper. Ut nec augue consectetur, eleifend ex ac, elementum urna. Ut leo eros, vehicula vel dolor ut, pulvinar eleifend eros. Nulla posuere non quam vel tempus.
+                    </p>
+            </div>
+        </section> 
+		
+		<section id="section-one" >
+			<div class="container">
+				<h1><i class="fas fa-dragon"></i>Pierwsza sekcja strony!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue egestas est. Fusce a facilisis lacus. Phasellus sit amet nunc et neque congue ullamcorper sceleric</p>
+				<input ng-model="query"> 
+				<p>Wyniki wyszukiwania dla: {{query}}</p>
+				<p>Ilosc elementow: {{galleries.length}}</p>
+				<h3>{{galleries.sekcja}}</h3>
+				<p ng-if="orderProp.value">Galerie ułożone: {{orderProp.label}}</p>
+				<label>Sortuj:</label>
+				<select ng-model="orderProp" ng-options="sort as sort.label for sort in sortList">
+				</select>  
+				<div class="row">
+					<div class="col-sm-4" ng-repeat="gallery in galleries | filter:query |  orderBy: orderProp.value">
+						<img src="{{gallery.thumbnailUrl}}">
+						<h3>{{gallery.title}}</h3>
+						<p><strong>Kiedy:</strong> {{gallery.when | date:'longDate'}}</p>
+					</div>
+				</div> 
+			</div>
+		</section>
+
+        <section id="section-two">
+          <div class="container">
+              <h1 class="text-info"><i class="fas fa-coffee"></i>DRUGA SEKCJA STRONY</h1>
+                  <p class="text-success">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies arcu mi, condimentum eleifend tortor ultricies vitae. Vivamus laoreet accumsan neque vel tincidunt. Morbi turpis arcu, aliquam finibus ornare a, fringilla quis ligula. Morbi fringilla id mauris at placerat. Vestibulum auctor posuere nibh at vehicula. Morbi eleifend turpis eu mollis ullamcorper. Nam laoreet egestas sem, eu facilisis risus maximus nec. Vivamus vulputate bibendum dui. Mauris et elit augue. Vivamus id lacinia lectus. Quisque sodales mauris nec ullamcorper condimentum.
+
+                      t dui leo, et laoreet nunc blandit non. Praesent rhoncus orci vitae lacus venenatis ullamcorper. Nam augue arcu, interdum nec massa in, mattis consectetur eros. Donec fringilla vestibulum arcu nec semper. Ut nec augue consectetur, eleifend ex ac, elementum urna. Ut leo eros, vehicula vel dolor ut, pulvinar eleifend eros. Nulla posuere non quam vel tempus.
+                  </p>
+                  <div class ="row">
+                      <div class="col-md-4">
+                          <img src="img/sekcja2/claude.jpg" class="rounded-circle d-block mx-auto">
+                          <h3 class="text-warning text-center">Claude von Riegan</h3>
+                          <p class="text-center"> 
+                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies arcu mi, condimentum eleifend tortor ultricies vitae. Vivamus laoreet accumsan neque vel tincidunt. Morbi turpis arcu, aliquam finibus ornare a, fringilla quis ligula. Morbi fringilla id mauris at placerat. Vestibulum auctor posuere nibh at vehicula. Morbi eleifend turpis eu mollis ullamcorper. Nam laoreet egestas sem, eu facilisis risus maximus nec. Vivamus vulputate bibendum dui. Mauris et elit augue. Vivamus id lacinia lectus. Quisque sodales mauris nec ullamcorper condimentum.
+    
+                            t dui leo, et laoreet nunc blandit non. Praesent rhoncus orci vitae lacus venenatis ullamcorper. Nam augue arcu, interdum nec massa in, mattis consectetur eros. Donec fringilla vestibulum arcu nec semper. Ut nec augue consectetur, eleifend ex ac, elementum urna. Ut leo eros, vehicula vel dolor ut, pulvinar eleifend eros. Nulla posuere non quam vel tempus.
+                        </p>
+                      </div>
+                      <div class="col-md-4">
+                          <img src="img/sekcja2/edelgard.jpg" class="rounded-circle d-block mx-auto">
+                          <h3 class="text-danger text-center">Edelgard von Hresvelg</h3>
+                          <p class="text-center"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies arcu mi, condimentum eleifend tortor ultricies vitae. Vivamus laoreet accumsan neque vel tincidunt. Morbi turpis arcu, aliquam finibus ornare a, fringilla quis ligula. Morbi fringilla id mauris at placerat. Vestibulum auctor posuere nibh at vehicula. Morbi eleifend turpis eu mollis ullamcorper. Nam laoreet egestas sem, eu facilisis risus maximus nec. Vivamus vulputate bibendum dui. Mauris et elit augue. Vivamus id lacinia lectus. Quisque sodales mauris nec ullamcorper condimentum.
+					 
+    
+                            t dui leo, et laoreet nunc blandit non. Praesent rhoncus orci vitae lacus venenatis ullamcorper. Nam augue arcu, interdum nec massa in, mattis consectetur eros. Donec fringilla vestibulum arcu nec semper. Ut nec augue consectetur, eleifend ex ac, elementum urna. Ut leo eros, vehicula vel dolor ut, pulvinar eleifend eros. Nulla posuere non quam vel tempus.
+                          </p>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="img/sekcja2/dimitri.png" class="rounded-circle d-block mx-auto">
+                        <h3 class="text-primary text-center">Dimitri Alexandre Blaiddyd</h3>
+                        <p class="text-center"> 
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies arcu mi, condimentum eleifend tortor ultricies vitae. Vivamus laoreet accumsan neque vel tincidunt. Morbi turpis arcu, aliquam finibus ornare a, fringilla quis ligula. Morbi fringilla id mauris at placerat. Vestibulum auctor posuere nibh at vehicula. Morbi eleifend turpis eu mollis ullamcorper. Nam laoreet egestas sem, eu facilisis risus maximus nec. Vivamus vulputate bibendum dui. Mauris et elit augue. Vivamus id lacinia lectus. Quisque sodales mauris nec ullamcorper condimentum.
+  
+                          t dui leo, et laoreet nunc blandit non. Praesent rhoncus orci vitae lacus venenatis ullamcorper. Nam augue arcu, interdum nec massa in, mattis consectetur eros. Donec fringilla vestibulum arcu nec semper. Ut nec augue consectetur, eleifend ex ac, elementum urna. Ut leo eros, vehicula vel dolor ut, pulvinar eleifend eros. Nulla posuere non quam vel tempus.
+                      </p>
+                      </div>
+                  </div>
+				  <form action="index.html#kontakt" method="post" onsubmit="return checkForm();" >
+						<fieldset>
+							<legend>Formularz kontaktowy</legend>
+							<div class="form-group" id="formgroup1">
+								<label for="contactName">Imię</label>
+								<input class="form-control" type="text" id="contactName" placeholder="Podaj imie" onblur="sprawdzajkaImienia()" onchange="sprawdzajkaImienia()"/>
+								<p class="d-none" id="errorName1">Podanie imienia jest wymagane!</p>
+							</div>
+							<div class="form-group" id="formgroup2">
+								<label for="contactEmail">Email</label>
+								<input class="form-control" type="text" id="contactEmail" placeholder="Podaj email" onblur="sprawdzajkaMaila()" onchange="sprawdzajkaMaila()"/>
+								<p class="d-none" id="errorName2">Podanie emailu jest wymagane!</p>
+								<p class="d-none" id="errorName4">Niepoprawny adres email</p>
+							</div>
+							<div class="form-group" id="formgroup3">
+								<label for="information">Dodatkowe informacje</label>
+								<input class="form-control" type="text" id="information" placeholder="Podaj dodatkowe informacje"/ onblur="sprawdzajkaInformacji()" onchange="sprawdzajkaInformacji()">
+								<p class="d-none" id="errorName3">Podanie informacji jest wymagane!</p> 
+								<p class="d-none" id="errorName5">Podane informacje są za długie</p>
+							</div>
+							<input type="submit" value="Wyślij" />
+						</fieldset>
+					</form>
+          </div>
+      </section>
+
+      <footer>
+        <div class="container">
+            <a data-toggle="modal" data-target="#exampleModal">
+                Polityka prywatności
+            </a>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">POLITYKA PRYWATNOSCI</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    OTO NASZA POLITYKA PRYWATNOSCI - PROSZE BYC MILYM, ZYCZLIWYM I MYC SIE PRZYNAJMNIEJ RAZ DZIENNIE!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Close</button>
+                    </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+	  
+	  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+	<script src="js/controllers.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+
+	 
+  </body>
+</html>
